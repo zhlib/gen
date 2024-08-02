@@ -1,3 +1,6 @@
+# chenge
+func (p *Param) astGetEltType(expr ast.Expr) {
+p.Package = ""
 # GORM Gen
 
 Friendly & Safer GORM powered by Code Generation.

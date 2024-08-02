@@ -281,7 +281,7 @@ func (p *Param) astGetEltType(expr ast.Expr) {
 	case *ast.Ident:
 		p.Type = v.Name
 		if v.Obj != nil {
-			p.Package = "UNDEFINED"
+			p.Package = ""
 		}
 	case *ast.SelectorExpr:
 		p.Type = v.Sel.Name
